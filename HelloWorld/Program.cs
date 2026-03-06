@@ -12,9 +12,10 @@ namespace HelloWorld
         {
             Console.Clear();
             Console.CursorVisible = false;
-            Console.CursorTop = 10;
-            Console.CursorLeft = 10;
+            Console.SetCursorPosition(10, 10);
             Console.Write("Hello,World!!!");
+            Console.SetCursorPosition(10, 11);
+            Console.Write("С# DotNet FrameWork Platform!!!");
             Console.ReadKey();
         }
     }
